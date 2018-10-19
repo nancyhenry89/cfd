@@ -43,6 +43,7 @@ header p span {color: #e9000b;letter-spacing: 0;}
     float: left;
     background: white;
     border: 2px solid #eaeaea;
+    margin-bottom: 8px;
 }
 
 .offer-img {
@@ -125,6 +126,7 @@ p.desc {
     padding-left: 25px;
     letter-spacing: 0.7px;
     height: 35px;
+    transition: all .5s ease;
 }
 
 .offer-info button i {
