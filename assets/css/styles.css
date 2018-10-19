@@ -3,10 +3,10 @@
     font-family: komika;
     src: url(../fonts/KOMIKAX_.ttf);
 }
-body{font-family:var(--main-font);color:var(--textcolor)}
+body{font-family:var(--main-font);color:var(--textcolor);BACKGROUND: #f3f3f3;}
 img{max-width:100%}
 header{background:url(../imgs/title.png);background-size:cover!important;height: 272px;padding:0;position:relative;}
-.content{background:rgba(254,255,255,0.8);max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh}
+.content{background: rgb(243, 243, 243);max-width: 868px;text-align:center;padding-bottom:60px;min-height:100vh;margin-top: 24px;}
 .container-fluid{padding: 0}
 h1 {
     font-family: "komika";
@@ -34,3 +34,132 @@ h3 {
 
 header p {color:#000;font-weight:bold;width: 516px;margin:auto;line-height: 22px;font-size: 12px;letter-spacing: 1px;}
 header p span {color: #e9000b;letter-spacing: 0;}
+
+.offers {
+    text-align: left;
+}
+
+.offer {
+    float: left;
+    background: white;
+    border: 2px solid #eaeaea;
+}
+
+.offer-img {
+    width: 29%;
+}
+
+.title .logo {
+    float: left;
+    width: 129px;
+    margin-top: 16px;
+}
+
+.title .text {
+    float: left;
+}
+
+.offer .title {
+    float: left;
+    width: 100%;
+}
+
+p.desc {
+    float: left;
+    font-size: 11px;
+    padding-left: 6PX;
+    margin-top: 10px;
+    color: #114c65;
+    line-height: 16px;
+}
+.offer-action {width: 38%;padding-left: 15px;}
+
+.offer>div {
+    /* width: calc(100% / 3); */
+    float: left;
+}
+
+.container-fluid.content>.container {
+    max-width: 100%;
+}
+.more {
+    float: left;
+    color: #28b7f2;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 12px;
+    margin-top: 3px;
+    padding-left: 6px;
+}
+.more i:before {
+    font-size: 9px;
+    /* margin-left: 6px; */
+    /* margin-top: -4px; */
+    /* padding: 3px; */
+}
+
+.offer-info {
+    float: left;
+    width: 33%;
+    padding-left: 24px;
+}
+
+.more i {
+    border: 1px solid;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    text-align: center;
+    line-height: 13px;
+    margin-left: 4px;
+}
+.offer-info button {
+    width: 158px;
+    background: #27b7f1;
+    border: 1px solid #00739d;
+    color: #fff;
+    margin-top: 15px;
+    text-shadow: 2px 1px 3px #4a4a4a;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 25px;
+    letter-spacing: 0.7px;
+    height: 35px;
+}
+
+.offer-info button i {
+    position: absolute;
+    right: 22px;
+    top: 28px;
+    font-size: 14px;
+}
+
+.review i {
+    font-size: 9px;
+    color: #ffd100;
+    margin-left: -4px;
+}
+
+.review{margin-top: 4px;margin-left: 5px;}
+
+.review span {
+    font-size: 9px;
+    margin-left: 0px;
+}
+
+.demand {
+    color: #d30404;
+    font-size: 9px;
+}
+
+.demand .box {
+    border: 1px solid;
+    border-radius: 3px;
+    height: 21px;
+    width: 92px;
+    margin-top: 50px;
+    font-size: 11px;
+    padding: 3px;
+    line-height: 12px;
+    margin-bottom: 7px;
+}
