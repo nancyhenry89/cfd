@@ -198,5 +198,12 @@ button.primary-btn.btn.recent {
     text-decoration: underline;
 }
 
-.col-md-4.comments {
+footer {
+    text-align: center;
+    margin-top: 61px;
+    padding-bottom: 20px
+}
+
+footer img {
+    width: 190px;
 }
