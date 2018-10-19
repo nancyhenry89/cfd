@@ -24,8 +24,8 @@ p.desc{float:left;font-size:11px;padding-left:6PX;margin-top:10px;color:#114c65;
 .more i:before{font-size:9px}
 .offer-info{float:left;width:33%;padding-left:24px}
 .more i{border:1px solid;border-radius:50%;height:17px;width:17px;text-align:center;line-height:13px;margin-left:4px}
-.offer-info button{width:158px;background:#27b7f1;border:1px solid #00739d;color:#fff;margin-top:15px;text-shadow:2px 1px 3px #4a4a4a;font-size:13px;text-align:left;padding-left:25px;letter-spacing:.7px;height:35px;transition:all .5s ease}
-.offer-info button i{position:absolute;right:22px;top:28px;font-size:14px}
+.offer-info button{width:158px;background:#27b7f1;border:1px solid #00739d;color:#fff;margin-top:15px;text-shadow:2px 1px 3px #4a4a4a;font-size:13px;text-align:left;padding-left:25px;letter-spacing:.7px;height:35px;transition:all .5s ease;position: relative;}
+.offer-info button i{position:absolute;right: 12px;top: 10px;font-size:14px;}
 .review i{font-size:9px;color:#ffd100;margin-left:-4px}
 .review{margin-top:4px;margin-left:5px}
 .review span{font-size:9px;margin-left:0}
