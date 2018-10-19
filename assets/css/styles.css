@@ -1,0 +1,36 @@
+:root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
+@font-face {
+    font-family: komika;
+    src: url(../fonts/KOMIKAX_.ttf);
+}
+body{font-family:var(--main-font);color:var(--textcolor)}
+img{max-width:100%}
+header{background:url(../imgs/title.png);background-size:cover!important;height: 272px;padding:0;position:relative;}
+.content{background:rgba(254,255,255,0.8);max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh}
+.container-fluid{padding: 0}
+h1 {
+    font-family: "komika";
+    color: #fff;
+    margin-top: 74px;
+    font-size: 28px;
+    text-shadow: 3px 3px 8px #4a4a4a;
+    margin-bottom: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    color: #fff;
+    text-shadow: 3px 1px 8px #4a4a4a;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    word-spacing: 4px;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+}
+
+header p {color:#000;font-weight:bold;width: 516px;margin:auto;line-height: 22px;font-size: 12px;letter-spacing: 1px;}
+header p span {color: #e9000b;letter-spacing: 0;}
