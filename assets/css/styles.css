@@ -33,7 +33,7 @@ button.primary-btn.btn.recent{background:#126182;border-radius:0;margin-top:4px;
 .comment .pic{float:left}
 .comment{font-size:12px}
 :root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
-body{font-family:var(--main-font);color:var(--textcolor);background:#f3f3f3}
+body{font-family:var(--main-font);color:var(--textcolor);}
 .content{background:#f3f3f3;max-width:868px;text-align:center;padding-bottom:60px;min-height:100vh;margin-top:24px}
 header{text-align:center}
 header p span{color:#e9000b;letter-spacing:0}
@@ -99,4 +99,10 @@ button.primary-btn.btn.recent:after{content:"";height:2px;width:calc(100vw - 60p
 }
 @media screen and (max-width: 767px) {
 header{height:177px;margin-bottom:177px}
+}
+@media screen and (min-width: 1400px) {
+    header{height:356px}
+    h1{margin-top: 94px;font-size:35px;}
+    h3{font-size:25px}
+    header p{font-size:16px;width:700px;line-height: 30px;}
 }
