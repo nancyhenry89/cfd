@@ -83,10 +83,10 @@ header p{font-size:13px;width:90%;line-height:24px}
 .mobile{display:block}
 .desktop{display:none}
 .comments .date{display:none}
-.comments-list{margin-left:0;padding-right:20px}
+.comments-list{margin-left:0;padding-right: 10px;padding-left: 10px;}
 button.primary-btn.btn.recent{width:143px;position:relative;height:40px;font-size:14px;margin-bottom:8px}
 button.primary-btn.btn.recent:after{content:"";height:2px;width:calc(100vw - 60px);display:block;background:#006285;position:absolute;top:calc(100% - 2px)}
-.comment.left:after{content:"";display:block;width:90%;height:2px;background:#dae1e4;position:absolute;top:-21px;left:5%}
+.comment.left:after{content:"";display:block;width: 100%;height:2px;background:#dae1e4;position:absolute;top:-21px;/* left:5% */}
 .comment.left{position:relative;margin-top:10px}
 .comment.left:first-of-type:after{display:none}
 .comment .pic{width:43px}
