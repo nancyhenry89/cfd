@@ -44,12 +44,11 @@ header p span{color:#e9000b;letter-spacing:0}
 .offers{text-align:left}
 .title .text{float:left}
 .container-fluid.content>.container{max-width:100%}
-.more i:before{font-size:9px}
 .offer-info button{width:158px;background:#27b7f1;border: 2px solid #00739d;color:#fff;margin-top:15px;text-shadow:2px 1px 3px #4a4a4a;font-size:13px;text-align:left;padding-left:25px;letter-spacing:.7px;height:35px;transition:all .5s ease;position:relative;max-width:100%;}
 .review i{font-size:9px;color:#ffd100;margin-left:-4px}
 .review{margin-top:4px;margin-left:5px}
 .review span{font-size:9px;margin-left:0}
-.demand{color:#d30404;font-size:9px}
+.demand{color:#d30404;font-size:9px;}
 .demand .box{border:1px solid;border-radius:3px;height:21px;width:92px;margin-top:50px;font-size:11px;padding:3px;line-height:12px;margin-bottom:7px}
 .comment.left{float:left;margin-top:18px;text-align:left;width:100%;margin-bottom:30px}
 .comment.right{float:right;text-align:-webkit-auto;margin-top:-14px;margin-left:36px;margin-bottom:23px}
@@ -81,9 +80,9 @@ p.desc{display:inline-block;width:auto;float:none;margin-top:14px;font-size:15px
 .more{display:inline-block;float:none}
 .demand .box{margin-top:0;display:inline-block;height:26px;float:left;width:120px;font-size:14px;line-height:17px}
 .demand p{display:inline;font-size:12px;line-height:26px}
-h1{margin-top:50px;font-size:32px}
+h1{margin-top:50px;font-size: 31px;}
 h3{font-size:22px;margin-bottom:37px;line-height:29px}
-header p{font-size:15px;width:90%;line-height:24px}
+header p{font-size: 13px;width:90%;line-height:24px;}
 .mobile{display:block}
 .desktop{display:none}
 .comments .date{display:none}
@@ -105,9 +104,50 @@ button.primary-btn.btn.recent:after{content:"";height:2px;width:calc(100vw - 60p
 }
 }
 @media screen and (max-width: 767px) {
-header{height:177px;margin-bottom:177px}
+header{height:177px;margin-bottom: 168px;}
 }
 @media screen and (min-width: 1400px) {
+    .offer-info button {
+    width: 210px;
+    height: 45px;
+    font-size: 18px;
+}
+
+.offer-info button i {
+    top: 13px;
+    font-size: 17px;
+}
+    .demand .box {
+    font-size: 14px;
+    width: 120px;
+    height: 26px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.review {
+    margin-top: 20px;
+}
+
+.demand {
+    font-size: 12px;
+}
+
+.review span {
+    font-size: 12px;
+}
+
+.review i {
+    font-size: 12px;
+}
+
+.more i:before {
+    font-size: 10px;
+}
+
+.more i {
+    line-height: 13px;
+}
     .more {
     font-size: 15px;
 }
@@ -119,5 +159,36 @@ header{height:177px;margin-bottom:177px}
     h1{margin-top: 94px;font-size:35px;}
     h3{font-size:25px}
     header p{font-size:16px;width:700px;line-height: 30px;}
-    p.desc{font-size:14px}
+    p.desc{font-size:14px;line-height: 21px;}
+    .offer{margin-bottom: 12px;}
+    .offer-img {
+}
+
+.comments .date {
+    font-size: 14px;
+}
+
+button.primary-btn.btn.recent {
+    width: 155px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.name b {
+    font-size: 14px;
+}
+
+.comment .pic {
+    width: 40px;
+}
+
+.comment-text {
+    font-size: 13px;
+    line-height: 18px;
+    padding-left: 67px;
+}
+
+footer img {
+    width: 260px;
+}
 }
