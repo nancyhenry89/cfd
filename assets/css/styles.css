@@ -58,7 +58,7 @@ header p span{color:#e9000b;letter-spacing:0}
 .comment.right .name{margin-left:0}
 .right .comment-text{padding-left:48px}
 .comment a{color:#2436ef;text-decoration:underline}
-footer{text-align:center;margin-top:61px;padding-bottom:20px}
+footer{text-align:center;padding-top: 61px;padding-bottom:20px;border-top: 1px solid #b7c4c9;margin-left: 20px;margin-right: 20px;}
 footer img{width:190px}
 @media screen and (max-width: 768px) {
 header{height:137px;margin-bottom:118px}
@@ -94,6 +94,10 @@ button.primary-btn.btn.recent:after{content:"";height:2px;width:calc(100vw - 60p
 .name b{font-size:14px}
 .comment-text{padding-left:74px;font-size:12px;line-height:18px}
 .content{padding-bottom:20px}
+
+footer {
+    border: 0;
+}
 .comment.right{margin-bottom:50px}
 .offers{margin-left:15px;margin-right:15px}
 }
