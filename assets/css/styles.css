@@ -22,9 +22,9 @@ p.desc{float:left;font-size:11px;padding-left:6PX;margin-top:10px;color:#114c65;
 .offer>div{float:left}
 .container-fluid.content>.container{max-width:100%}
 .more{float:left;color:#28b7f2;font-weight:700;font-style:oblique;font-size:12px;margin-top:3px;padding-left:6px}
-.more i:before{font-size:9px}
+.more i:before{font-size: 10px;}
 .offer-info{float:left;width:33%;padding-left:24px}
-.more i{border:1px solid;border-radius:50%;height:17px;width:17px;text-align:center;line-height:13px;margin-left:4px}
+.more i{border:1px solid;border-radius:50%;height: 24px;width: 24px;text-align:center;line-height: 20px;margin-left:4px;}
 .offer-info button i{position:absolute;right:12px;top:10px;font-size:14px}
 .comments .date{margin-top:-10px;font-size:11px;float:right;color:#000}
 .comments-list{background:#fff;float:left;margin-top:15px;margin-left:20px;padding-right:15px}
@@ -109,7 +109,7 @@ header{height:177px;margin-bottom:168px}
 .review span{font-size:12px}
 .review i{font-size:12px}
 .more i:before{font-size:10px}
-.more i{line-height:13px}
+.more i{line-height: 18px;}
 .more{font-size:15px}
 .title .logo{width:165px}
 .content{max-width:1136px}
